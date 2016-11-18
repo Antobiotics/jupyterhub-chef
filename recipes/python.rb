@@ -5,7 +5,7 @@
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 
 # include recipe(s)
-package [ 'curl', 'epel-release' ]
+package [ 'curl']
 
 
 if node['python']['python2']['install']
